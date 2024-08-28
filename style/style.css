@@ -1,11 +1,6 @@
-/*importamos las fuentes que vamos a usar*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
-/*
-    creamos variables de tipo globlal para poder usarlas en los aspectos mas
-    repetitvos que hayan en el codigo para poder cambiarlas con facilidad mas adelante 
-*/
 :root{
     --primary-color: #0a3871;
     --second-color: #D8DFE8;
