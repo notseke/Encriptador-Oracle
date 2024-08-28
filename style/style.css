@@ -1,0 +1,150 @@
+/*importamos las fuentes que vamos a usar*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/*
+    creamos variables de tipo globlal para poder usarlas en los aspectos mas
+    repetitvos que hayan en el codigo para poder cambiarlas con facilidad mas adelante 
+*/
+:root{
+    --primary-color: #0a3871;
+    --second-color: #D8DFE8;
+    --third-color: #ffffff;
+    --hover-color: #ced4da;
+
+    --typing-text:"Inter", sans-serif ;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f3f5fc;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.header_image{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+.main_index{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    gap: 8%;
+}
+
+.input_text{
+    border: none;
+    color: var(--primary-color);
+    margin-top: 90px;
+    text-transform: lowercase;
+
+}
+::placeholder{color: var(--primary-color);}
+    .input_text:focus{
+        outline: none;
+    }
+
+.text_encrip{
+    background-color: var(--third-color);
+    background-image: url("../assets/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: var(--primary-color);
+    margin-top: 20px;
+    margin-left: 98px;
+    padding-left: 20px;
+    position: fixed;
+}
+.text_encrip:focus{
+    outline: none;
+}
+
+.buttons_input{
+    display: flex;
+    margin-top: 18px;
+    gap: 8%;
+}
+
+.btn_Encrip{
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 24px;
+    color: var(--third-color);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn_Unencrip{
+    background-color: var(--second-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 24px;
+    color: var(--primary-color);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn_copy{
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 24px;
+    color: var(--third-color);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+}
+
+.btn_copy:hover{
+    background-color: var(--hover-color);
+}
+.btn_Encrip:hover{
+    background-color: var(--hover-color);
+}
+.btn_Unencrip:hover{
+    background-color: var(--hover-color);
+}
+
+.information{
+    color: #495057;
+    font-size: 18px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    padding: 30px;
+    background-color: var(--primary-color);
+}
+
+.presentation_footer{
+    font-size: 19px;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    color: var(--second-color);
+}
+.nav_footer{
+    background-color: var(--primary-color);
+}
+
+.a{
+    background-color: var(--primary-color);
+    text-decoration: none;
+}
+.redirection_image{
+    background-color: var(--primary-color);
+}

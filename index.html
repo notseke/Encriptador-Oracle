@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Oracle</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./assets/Logo.png" alt="Imagen Logo Alura">
+    </header>
+    <main class="main_index">
+        <section class="section_input">
+            <textarea class="input_text" id="textInput" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="div_information">
+                <h6 class="information"><img src="./assets/exclamacion.png" alt="exclamacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="buttons_input">
+            <button class="btn_Encrip" id="button_encript" onclick="btnEncrip()">Encriptar</button>
+            <button class="btn_Unencrip" onclick="btnunEncrip()" >Desencriptar</button>
+            </div>
+        </section>
+        <section class="section_output">
+            <textarea class="text_encrip" id="result" cols="20" rows="10"></textarea>
+            <div class="button_output">
+                <button class="btn_copy" onclick="btnCopy()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="presentation_footer">&copy;2024. Desarrollado por Steven Sanchez</p>
+        <nav class="nav_footer">
+            <a class="a" href="https://github.com/notseke"><img class="redirection_image" src="./assets/github.png" alt="logo_Github"></a>
+        </nav>
+    </footer>
+    <script src="funtions.js"></script>
+</body>
+</html>
